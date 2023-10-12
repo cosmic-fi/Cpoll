@@ -1,0 +1,12 @@
+name: CPoll
+version: '${project.version}'
+main: com.byteflow.cpoll.CPoll
+api-version: '1.20'
+authors: [ vanny_y ]
+commands:
+  poll:
+    description: Create a poll with multiple choice answers.
+  cpollreload:
+    description: Reloads the config file after it's edited
+    usage: /cpollreload
+    permission: CPoll.poll
